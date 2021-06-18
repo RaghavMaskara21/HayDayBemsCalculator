@@ -1,10 +1,4 @@
-// var input = prompt("Fuck");
-// var n = input.indexOf("/");
-// var ratio= input.substring(n+1, n+2);
-// var quantity = input.indexOf("=");
-// var quan = input.substring(quantity+1, quantity+10);
-// var bems = quan/ratio;
-// console.log(bems);
+
 
 function myFunction() {
 var x = document.getElementById("myText").value;
@@ -16,7 +10,7 @@ for( i=0; i<list.length;i++){
 calcArray = calcArray + (list[i] + " --> " + calculate(list[i]) + "\n");
 total = total + calculate(list[i]);
 }
-calcArray= calcArray+ "\n Total Bems= " + total; 
+calcArray= calcArray+ "\n Total Bems= " + Math.round(total*100)/100;
 document.getElementById("display").innerHTML = calcArray;
 document.getElementById("demo2").innerHTML = "Total Bems= " + Math.round(total*100)/100;
 }
