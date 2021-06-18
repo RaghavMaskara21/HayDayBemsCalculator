@@ -16,6 +16,7 @@ for( i=0; i<list.length;i++){
 calcArray = calcArray + (list[i] + " --> " + calculate(list[i]) + "\n");
 total = total + calculate(list[i]);
 }
+calcArray= calcArray+ "\n Total Bems= " + total; 
 document.getElementById("display").innerHTML = calcArray;
 document.getElementById("demo2").innerHTML = "Total Bems= " + Math.round(total*100)/100;
 }
