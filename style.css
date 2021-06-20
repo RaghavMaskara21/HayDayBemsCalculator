@@ -1,0 +1,46 @@
+body{
+    background-color: #ffffff;
+background-image: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
+background-size: cover;
+background-size: 100% 100%;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+input {
+    width: 40%;
+    text-align:center;
+    background-color: #ffffff;
+background-image: url("https://onlyvectorbackgrounds.com/wp-content/uploads/2018/09/Abstract-Ambient-Light-Background-Day-Blue.jpg");
+background-size: cover;
+background-size: 100% 100%;
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+h2{
+    padding-top: 24px;
+}
+h3 {
+    padding: 24px 0;
+    font-size: 2rem;
+}
+.col-3 {
+    padding: 4px 0;
+} 
+h10{
+    font-size: 3rem;
+    color: #3136e2;
+}
+h11{
+    margin-top: 500px;
+    font-size: 2rem;       
+    }
+h12{
+    font-size: 3rem;
+    text-align: center;
+    color: #3136e2;
+}
+.numinp{
+    
+width: 120px;
+}
+.ratio{
+    width: 120px;
+}
