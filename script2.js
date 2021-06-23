@@ -519,7 +519,14 @@ function onFoodChange(id)
 
 onFoodChange()
 
-
+// function copyToClipboard(element) {
+//     var $temp = $("<input>");
+//     $("body").append($temp);
+//     $temp.val($(element).text()).select();
+//     document.execCommand("copy");
+//     $temp.remove();
+//   }
+  
 /*
 foods = array of foods
 Foods = class

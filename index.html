@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raghav Maskara</title>
-    <script type="text/javascript" src="script.js"></script>
+    
 </head>
 
 <body>
@@ -32,6 +32,11 @@
        h3{
            font-size: 1.5rem;
        }
+       #imge{
+    width: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
        
     </style>
 <h3>Hay Day List Maker <br> <br>
@@ -53,7 +58,9 @@ Example Of a List:-  <br> <br>
 1/1.5 Candy Bouquet=27<br>
 1/2 Gingerbread Cookie=58<br>
 1/2.5 Noodle Soup=34<br></p2> <br>
-   
+
+<img id="imge" src="info.JPG" >
+
     <div>
     Enter The List Here:- <br>
      <textarea rows = "15" cols = "60" id="myText" name = "description" value=""></textarea><br>
@@ -62,9 +69,12 @@ Example Of a List:-  <br> <br>
     <p id="demo2"></p>
     <textarea id="display"  rows="15" cols="60"></textarea> <br>
 </div>
-
+<button onclick="copyToClipboard('#display')">Copy List</button>
 
 <h2> Thank You!!</h2>
+
+<script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="script.js"></script>
 
 <!-- Default Statcounter code for Bems Calculator
 https://raghavmaskara21.github.io/HayDayBemsCalculator/ -->
